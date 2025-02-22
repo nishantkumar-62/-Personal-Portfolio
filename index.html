@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NishantKumar Portfolio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div id="header"> 
+          <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1><span>N</span>ishant..</h1>
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Designer,</p>
+                <h1>Hello! I'am<span> Nishant kumar</span><br>full stack web devoleper. </h1><br>
+                <p>A showcase of my web development projects and skills, highlighting expertise in<br>
+                 frontend and backend technologies. Explore my work and get in touch for collaborations.</p>
+            </div>
+          </div>
+    </div>
+    <!-- --------About---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./img/img3.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hello! I'm Nishant Kumar, a passionate full-stack developer with a 
+                    keen interest in creating innovative web solutions. I have 4 years of experience in the 
+                    field, working with a variety of technologies to build robust and user-friendly applications.<br>
+
+                        <br>My journey in web development began with a fascination for how
+                        
+                    technology can transform ideas into reality. Over the years, I've honed my skills in front-end and back-end development, mastering languages such as HTML, CSS, JavaScript, Python, and more.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links"  onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links"  onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Front-End Development</span>
+                                <li><b>Languages: </b> HTML, CSS, JavaScript</li>
+                                <li><b>Frameworks/Libraries:</b> React, Angular, Vue.js</li>
+                                <li><b>Responsive Design:</b> Bootstrap, CSS Grid, Flexbox</li>
+                                <li><b>Version Control:</b> Git, GitHub, GitLab</li>
+                            <li><span>Back-End Development</span>
+                            <li><b>Languages: </b>Node.js, Python, Java</li>
+                            <li><b>Frameworks:</b>Express, Flask, Spring Boot</li>
+                            <li><b>Databases:</b>MongoDB, MySQL, PostgreSQL</li>
+                            
+                        </ul>
+                    </div>
+                        <div class="tab-contents" id="Experience">
+                        <!-- <ul>
+                            <li><span>1 year</span><br> web Designer</li>
+                            <li><span>interm with</span><br>company</li>
+                            <li><span>Interm</span><br>App Devolopment</li>
+                        </ul> -->
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>BACHELOR OF TECHNOLOGY FROM COMPUTER SCIENCE AND ENGINNERING<br></span>
+                            <br><b>Institution:</b>vinayaka mission kirupananda variyar engineering college<br>
+                             <b>Location:</b>ChinnaSeeragapadi, Salem, Tamil Nadu 636308<br>
+                             <b>Duration:</b>2022-2026<br></li>
+                            <li><span>INTERMIDIATE EDUCATION FROM SCIENCE<BR></span><br>
+                            <b>College:</b>Nitishwar Mahavidyalaya<br>
+                            <b>Location:</b>Muzaffarpur, Bihar, 842001<br>
+                            <b>Duration:</b>2020-2022</li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------Services--------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My services</h1><br>
+            <p>As a full-stack developer, I offer a range of services 
+                to help bring your web projects to life. My expertise includes:</p>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Front-end devoloper</h2>
+                        <p>Creating responsive and user-friendly interfaces using HTML, CSS, and JavaScript.
+                           </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>back-end devoloper</h2>
+                        <p>Designing and implementing RESTful APIs for seamless communication between
+                             front-end and back-end systems.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App devolopment</h2>
+                        <p>I specialize in creating user-friendly mobile applications for iOS and
+                        Android platforms. From concept to deployment, I focus on delivering high-quality, performance-driven apps that 
+                        meet the needs of users and clients ali</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-database"></i>
+                        <h2>Databases</h2>
+                        <p>I have expertise in designing and managing databases to store and retrieve information efficiently. 
+                            My skills include creating database schemas, optimizing queries
+                         for performance, and ensuring data integrity and security.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-uncharted"></i>
+                        <h2>software engineer</h2>
+                        <p>
+                            Software Engineering
+                            I specialize in software engineering, focusing on developing scalable and robust applications.
+                             My expertise includes designing software architecture, implementing coding
+                             best practices, and ensuring high-quality, maintainable code.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+    </div>
+</div>
+</div>
+
+<!-- ----------------portfolio--------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="work-list">
+                <div class="work">
+                    <img src="./img/weather.jpg">
+                    <div class="layer">
+                        <h3>Weather Forecast Website</h3>
+                        <p>
+                            A weather app is a software application that provides users with information
+                             about the current weather conditions, forecasts, and other related data for a specific
+                              location or multiple locations. Users can typically view details such as temperature, 
+                            humidity, wind speed, and precipitation chances.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    </div>
+                    <div class="work">
+                        <img src="./img/Quiz-Application.jpg">
+                        <div class="layer">
+                        <h3>Quiz-Application</h3>
+                        <p>Quiz applications are used to test knowledge or skills through a
+                             series of questions. They are popular for education, training,
+                              and entertainment purposes, providing users with an
+                             interactive way to learn and challenge themselves.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    </div>
+                    <div class="work">
+                        <img src="./img/To-do-List.jpg">
+                        <div class="layer">
+                        <h3>To-do-list </h3>
+                        <p>To-do list applications are commonly used for personal task management,
+                             project planning, and team collaboration. They help users stay organized,
+                              prioritize their work, and
+                             track their progress towards goals.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    </div>
+                    <div class="work">
+                        <img src="./img/Build a Landing Page.jpg">
+                        <div class="layer">
+                        <h3>Build a Landing Page</h3>
+                        <p>
+                            Building a landing page involves creating a single web page with the 
+                            goal of converting visitors into leads or customers.
+                             Here's a basic guide to building a landing page:</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- --------------------Contact---------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i></i>nishantkumar22126@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>8271383435</p>
+                    <div class="social-icon">
+                        <a href="https://wa.me/message/H2633OS6W7ORF1"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/official_nishant_prasad?igsh=MWlianRxd3dsbWZ1bw=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100049560787649"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/nishant-kumar--741500289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i>
+                 </div>
+                    <a href="img\Resume-Nishant-Kumar-.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &copy;</i>Nishant. made with <i class="fa-solid fa-heart"></i> by NishantKumar</p>
+        </div>
+    </div>
+<script src="script/script.js"></script>
+</body>
+</html>
